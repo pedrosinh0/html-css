@@ -35,36 +35,86 @@ header {
 
 #segundo_p {
     font-family: 'Sriracha', cursive, sans-serif;
-    font-size: larger;
-    width: 150px;
+    font-size: 1.4em;
+    width: 250px;
+
 }
 
 #main_secundario {
-    width: 90vh;
     padding-top: 60px;
     padding: 60px 100px 60px 20px;
     padding-bottom: 60px;
 }
 
 #article_main {
-    padding: 40px 40px 40px 40px;
+    padding: 40px 40px 40px 0px;
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
+    background-position: center right;
     height: 100%;
     min-width: 300px;
 }
 
 #article_1 {
-    width: 200px;
-    padding: 0px 50px 0px 10px;
-    background-color: rgba(0, 0, 0, 0.692);
+    width: 300px;
+    padding: 0px 30px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.301);
 }
 
 #terceiro_p {
-    width: 200px;
+    width: 300px;
     font-family: 'Sriracha', cursive, sans-serif;
-    font-size: larger;
+    font-size: 1.4em;
     padding: 40px 100px 40px 20px;
     color: white;
 }
 
+#quarto_p {
+    width: 300px;
+    font-family: 'Sriracha', cursive, sans-serif;
+    font-size: 1.4em;
+    padding: 40px 100px 40px 20px;
+}
+
+#ancora_1 {
+    text-decoration: none;
+    color: white;
+}
+
+#ancora_1:hover {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#footer_p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#a_ultimo_p {
+    color: white;
+    text-decoration: none;
+}
+
+#article_2 {
+    width: 300px;
+    padding: 0px 30px 0px 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+#article_main_2 {
+    padding: 40px 40px 40px 0px;
+    background-image: url('imagens/background002.jpg');
+    background-position: center right;
+    height: 100%;
+    min-width: 300px;
+}
+
+#a_ultimo_p:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+}
